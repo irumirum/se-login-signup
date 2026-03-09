@@ -1,0 +1,39 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+.userInput{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b6b6b6;
+    border-radius: 4px;
+}
+#buttonLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttonLink input{
+    padding: 5px 10px;
+    border: 1px solid #b6b6b6;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#buttonLink input:hover{
+    background-color: #afafaf;
+    border: 1px solid black;
+}
